@@ -218,9 +218,11 @@ void _cdecl serve2(void* _cons) {
 
 	http_request req;
 
+	int err;
+
 again:  // <- sue me, g++ doesn't allow labels just before a "} while (blah);"
 
-		int err=get_request_header(s,&req,cons->con_id);
+		err=get_request_header(s,&req,cons->con_id);
 
 		if (err==REQ_ERR_SUCCESS) {
 			int f;

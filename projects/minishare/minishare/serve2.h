@@ -47,7 +47,7 @@ typedef struct http_request {
 	char path[MAXHEADERSIZE],request_string[MAXHEADERSIZE];
 	char auth_hash[(MAXLPSIZE*2)*4/3+2];
 	__int64 range_start,range_end;
-};
+} http_request;
 
 int send_file(connection *c,char *fn);
 int send_file_rangeless(connection *c,char *fn);
