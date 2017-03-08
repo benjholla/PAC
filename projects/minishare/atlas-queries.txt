@@ -60,7 +60,7 @@ show(potentiallyVulnerableFunctions, "Potentially Vulnerable Functions")
 
 // filter the tainted strcpy callsites to just the callsites in the potentially vulnerable function, there should only be 1 function left
 var taintedStrcpyCallsitesInPotentiallyVulnerableFunctions = taintedStrcpyCallsites.intersection(potentiallyVulnerableFunctions.contained().nodes(XCSG.ControlFlow_Node))
-show(taintedStrcpyCallsitesInPotentiallyVulnerableFunctions)
+show(taintedStrcpyCallsitesInPotentiallyVulnerableFunctions, "Potentially Vulnerable strcpy")
 
 // print the line number of the potential vulnerability ([Filename: minishare\serve2.c (line 229)])
 println(FormattedSourceCorrespondence.getSourceCorrespondents(taintedStrcpyCallsitesInPotentiallyVulnerableFunctions))
