@@ -4,9 +4,9 @@ We will be using the stock Kali Linux (version 2016.2) to develop and launch man
 
 Note: If you are participating in the course a virtual machine will be provided for you.
 
-| **Image Name**             | **Torrent** | **Size** | **Version** | **SHA1 Sum**                             |
-|----------------------------|-------------|----------|-------------|------------------------------------------|
-| Kali Linux 64 bit VM       | Torrent     | 2.2G     | 2016.2      | FD91182F6ABCBA7D3EFA4DE0B58F4DB42DEF49A4 |
-| Kali Linux 32 bit VM PAE   | Torrent     | 2.2G     | 2016.2      | 84D53E456F66D6DE4759F759AB8004609CC127AD |
-| Kali Linux Light 64 bit VM | Torrent     | 0.7G     | 2016.2      | 2FA5378F4CE25A31C4CBF0511E9137506B1FB5E0 |
-| Kali Linux Light 32 bit VM | Torrent     | 0.7G     | 2016.2      | 1951C180968C76B557C11D21893419B6BBBC826E |
+| **Image Name**             | **Size** | **Version** | **SHA1 Sum**                             |
+|----------------------------|----------|-------------|------------------------------------------|
+| Kali Linux 64 bit VM       |  2.2G    | 2016.2      | FD91182F6ABCBA7D3EFA4DE0B58F4DB42DEF49A4 |
+| Kali Linux 32 bit VM PAE   |  2.2G    | 2016.2      | 84D53E456F66D6DE4759F759AB8004609CC127AD |
+| Kali Linux Light 64 bit VM |  0.7G    | 2016.2      | 2FA5378F4CE25A31C4CBF0511E9137506B1FB5E0 |
+| Kali Linux Light 32 bit VM |  0.7G    | 2016.2      | 1951C180968C76B557C11D21893419B6BBBC826E |
