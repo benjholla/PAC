@@ -2,7 +2,7 @@
 // assumes Atlas has the C Toolbox Commons installed 
 // https://ensoftcorp.github.io/c-toolbox-commons
 import com.ensoftcorp.open.commons.utilities._
-import com.ensoftcorp.open.c.commons.Queries._
+import com.ensoftcorp.open.c.commons.analysis.CommonQueries._
 
 // get callers of strcpy and strlen
 var strcpy = functions("strcpy")
